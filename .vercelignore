@@ -1,0 +1,12 @@
+# Ignore development files
+.env.local
+.env.development
+.env.backup
+
+# Ignore build artifacts
+.next
+node_modules
+
+# Keep Prisma files
+!prisma/schema.prisma
+!prisma/migrations
